@@ -395,7 +395,7 @@ class Photo_Sphere_Viewer extends Widget_Base {
         $settings = $this->get_settings_for_display();
         $image    = $settings['image'];
         extract($settings);
-        $this->add_render_attribute('viewer', 'class', 'photo-sphere-viewer');
+        $this->add_render_attribute('viewer', 'class', 'photo-sphere-viewer viewer');
         $id = wp_unique_id('psv-container-');
 
         $this->add_render_attribute([
