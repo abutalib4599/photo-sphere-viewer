@@ -1,0 +1,6 @@
+.photo-sphere-viewer {
+  margin: 0 auto;
+}
+.photo-sphere-viewer * {
+  box-sizing: unset !important;
+}
