@@ -396,13 +396,13 @@ class Photo_Sphere_Viewer extends Widget_Base {
         $image    = $settings['image'];
         extract($settings);
         $this->add_render_attribute('viewer', 'class', 'photo-sphere-viewer');
-        $id = wp_unique_id('bdt-psv-container-');
+        $id = wp_unique_id('psv-container-');
 
         $this->add_render_attribute([
             'viewer' => [
                 'data-settings' => [
                     wp_json_encode(array_filter([
-                        'container'           => $id,
+                        'container'           => sanitize_key($id),
                         'panorama'            => $image['url'],
                         'caption'             => $caption,
                         'navbar'              => $navbar_options,
