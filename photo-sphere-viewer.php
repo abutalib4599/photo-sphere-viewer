@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: Photo Sphere Viewer
- * Plugin URI: https://talib.netlify.app
+ * Plugin URI: https://github.com/abutalib4599/photo-sphere-viewer
  * Description: Photo Sphere Viewer renders 360° panoramas shots with Photo Sphere, the new camera mode of Android 4.2 Jelly Bean and above. It also supports cube panoramas.
  * Version: 1.0.0
  * Author: ABU TALIB

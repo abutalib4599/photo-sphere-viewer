@@ -1,6 +1,6 @@
 === Photo Sphere Viewer ===
 Contributors: abutalib
-Tags: photo sphere viewr, 360 degree, gallery, image
+Tags: photo sphere viewer, 360, 360 degree, gallery, image
 Stable tag: 1.0.0
 Requires PHP: 7.0.0
 Requires at least: 5.0.0
